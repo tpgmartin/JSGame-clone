@@ -1,0 +1,23 @@
+{
+  "name": "jsgame-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "mkdir -p dist;browserify src/app.js > dist/bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tpgmartin/JSGame-clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tpgmartin/JSGame-clone/issues"
+  },
+  "homepage": "https://github.com/tpgmartin/JSGame-clone#readme",
+  "dependencies": {
+    "browserify": "^13.0.1"
+  }
+}
