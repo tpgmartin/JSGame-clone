@@ -64,7 +64,7 @@ Constructor.prototype.addComponent = function (obj, id) {
 
         this.components[id] = obj;
         if (obj.__init) {
-            obj.___init(this);
+            obj.__init(this);
         }
 
     } else {
@@ -79,7 +79,7 @@ Constructor.prototype.addComponent = function (obj, id) {
 
         this.components[id] = obj;
         if (obj.__init) {
-            obj.___init(this);
+            obj.__init(this);
         }
 
     }
